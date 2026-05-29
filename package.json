@@ -1,0 +1,17 @@
+{
+  "name": "sample_appli",
+  "version": "1.0.0",
+  "description": "Polyglot project containing Go, Java, Python, and TypeScript code",
+  "scripts": {
+    "start": "echo \"This is a polyglot project. Run specific scripts for each language.\"",
+    "run:python": "python3 testjs/python/math_utils.py",
+    "run:go": "cd testjs/go && go run math_operations.go",
+    "run:ts": "ts-node testjs/typescript/data_processor.ts",
+    "build:java": "javac testjs/java/*.java"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1"
+  }
+}
